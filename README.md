@@ -15,6 +15,11 @@ The same C# program includes a box where you will be able to see in Live Stream 
   <img align = "right" width="410" height="300" src="assets/im_2.jpeg">
 </p>
 
+
 For any further specifications, you can open the code and look at it because it's well commented.
+
+<video width="320" height="240" controls>
+  <source src="assets/Xbox_Controller.mp4" type="video/mp4">
+</video>
 
 EUDALD SANGENIS & GUILLEM CORNELLA University of Colorado at Colorado Springs
