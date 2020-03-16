@@ -11,8 +11,8 @@ We used Visual Basic as our design interface and we created a Windows Forms App 
 The same C# program includes a box where you will be able to see in Live Stream the video send by a camera of your choice (we are using a smartphone with the App "IP webcam". You can take a snapshot or even record a video and the files will be saved in your PC. There are some camera controls because the camera is mounted on a support with a Servo, so that you can tilt the camera. A slider will allow you to move the camera separately from the robot commands.
 
 <p>
-  <img align = "left" width="450" height="310" src="assets/im_1.jpeg">
-  <img align = "right" width="450" height="310" src="assets/im_2.jpeg">
+  <img align = "left" width="450" height="300" src="assets/im_1.jpeg">
+  <img align = "right" width="450" height="300" src="assets/im_2.jpeg">
 </p>
 
 For any further specifications, you can open the code and look at it because it's well commented.
