@@ -21,4 +21,6 @@ For any further specifications, you can open the code and look at it because it'
   <source src="assets/Xbox_Controller.mp4" type="video/mp4"></source>
 </video>
 
+![](assets/Xbox_Controller.mp4)
+
 EUDALD SANGENIS & GUILLEM CORNELLA University of Colorado at Colorado Springs
