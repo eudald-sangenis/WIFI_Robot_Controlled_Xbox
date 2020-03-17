@@ -14,8 +14,8 @@ The same C# program includes a box where you will be able to see in Live Stream 
 <p align = "center">
   <img align = "left"  width="412" height="300" src="assets/im_1.jpeg">
   <img align = "right" width="412" height="300" src="assets/im_2.jpeg">
-</p>
-<br/>
+</p>/
+
 For any further specifications, you can open the code and look at it because it's well commented.
 
 [link text](https://www.youtube.com/watch?v=Hvh4d6ooXKg&list=PLkLimRXN6NKzz2pS73LnV6DYbMdIhSLv9&index=2)
