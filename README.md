@@ -18,8 +18,10 @@ The same C# program includes a box where you will be able to see in Live Stream 
 
 For any further specifications, you can open the code and look at it because it's well commented.
 
-<video>
-  <source src="assets/Xbox_Controller.mov" type="video/mp4"></source>
+
+<video controls="" height="240" width="320">
+  <source src="/assets/Xbox_Controller.mp4" type="video/mp4" />
+Your browser does not support the video tag.
 </video>
 
 
