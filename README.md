@@ -20,8 +20,7 @@ For any further specifications, you can open the code and look at it because it'
 
 
 <video controls="" height="240" width="320">
-  <source src="/assets/Xbox_Controller.mp4" type="video/mp4" />
-Your browser does not support the video tag.
+  <source src="assets/Xbox_Controller.mp4" type="video/mp4" />
 </video>
 
 
