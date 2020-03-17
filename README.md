@@ -18,7 +18,7 @@ The same C# program includes a box where you will be able to see in Live Stream 
 
 For any further specifications, you can open the code and look at it because it's well commented.
 
-![alt text](https://www.youtube.com/watch?v=Hvh4d6ooXKg&list=PLkLimRXN6NKzz2pS73LnV6DYbMdIhSLv9&index=2)
+[link text](https://www.youtube.com/watch?v=Hvh4d6ooXKg&list=PLkLimRXN6NKzz2pS73LnV6DYbMdIhSLv9&index=2)
 
 
 EUDALD SANGENIS & GUILLEM CORNELLA University of Colorado at Colorado Springs
