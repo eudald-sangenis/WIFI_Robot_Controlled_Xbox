@@ -1,11 +1,9 @@
 # WIFI_Robot_Controlled_Xbox
-
-<p align="justify">
  
 In this files you will find the C# code that we have created to control an RC car through an ESP32/ESP8266 Wi-Fi module.
 
 We used Visual Basic as our design interface and we created a Windows Forms App where you can send commands to the robot. To communicate the PC to our robot, we are using the Arduino Wi-Fi module ESP8266, and connecting both of them using a UDP protocol. To control the robot we use the Xbox Controller.
-</p>
+
 
 <p align = "center">
   <img width="700" height="400" src="assets/xbox_controls.png">
