@@ -22,6 +22,6 @@ For any further specifications, you can open the code and look at it because it'
 [Video of the robot in action](https://www.youtube.com/watch?v=SE_PlRrKgRI)
 
 
-### EUDALD SANGENIS & GUILLEM CORNELLA
+###### EUDALD SANGENIS & GUILLEM CORNELLA
 
-### University of Colorado at Colorado Springs
+###### University of Colorado at Colorado Springs
