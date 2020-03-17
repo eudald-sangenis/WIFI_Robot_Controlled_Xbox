@@ -21,4 +21,6 @@ For any further specifications, you can open the code and look at it because it'
 [link text](https://www.youtube.com/watch?v=Hvh4d6ooXKg&list=PLkLimRXN6NKzz2pS73LnV6DYbMdIhSLv9&index=2)
 
 
+![alt-text-1](assets/im_1.jpeg) ![alt-text-2](assets/im_2.jpeg)
+
 EUDALD SANGENIS & GUILLEM CORNELLA University of Colorado at Colorado Springs
