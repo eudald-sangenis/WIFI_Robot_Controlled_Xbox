@@ -4,7 +4,8 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WIFI_Robot_Controlled_Xbox"
-        xmlns:WPF="clr-namespace:VisioForge.Controls.UI.WPF;assembly=VisioForge.Controls.UI" x:Class="WIFI_Robot_Controlled_Xbox.MainWindow"
+        xmlns:WPF="clr-namespace:VisioForge.Controls.UI.WPF;assembly=VisioForge.Controls.UI" 
+        x:Class="WIFI_Robot_Controlled_Xbox.MainWindow"
         mc:Ignorable="d"
         Title="WIFI RC ROBOT" Height="515" Width="1000" ResizeMode="NoResize" Background="Gainsboro">
 

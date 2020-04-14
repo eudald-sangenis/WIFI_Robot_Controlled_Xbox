@@ -2,16 +2,14 @@
 using System.Windows;
 using System.Windows.Controls;
 using VisioForge.Types.OutputFormat;
+using OpenJigWare;
 using System.Net.Sockets;
 using System.Text;
-using OpenJigWare;
 using System.Timers;
 
 namespace WIFI_Robot_Controlled_Xbox
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// 
+    /// <summary> 
     /// Install NuGet Pakages:
     ///     - VisioForge
     ///     - Material Theme
@@ -19,7 +17,7 @@ namespace WIFI_Robot_Controlled_Xbox
     ///     - Sharp DX Input
     ///     - OpenJigWare
     /// </summary>
-    /// 
+
     public partial class MainWindow : Window
     {
         /// variables int
@@ -32,13 +30,14 @@ namespace WIFI_Robot_Controlled_Xbox
         bool lights_bool;
         /// variables string
         string leds;
-        string jx0;
+        string jx0;                 
         string jx1;
         string jy1;
-        
-        ///create a new UDP object sender in the port 2000
-        UdpClient udpSender = new UdpClient(2000);
-        ///create a new timer
+        //string returnData;          ///data recived from arduino (ultrasonic sensor)
+
+        ///create a new UDP object in the port 2000
+        UdpClient udpClient  = new UdpClient(2000);
+        ///create a new timer object
         private static Timer timer;
 
 
@@ -46,8 +45,9 @@ namespace WIFI_Robot_Controlled_Xbox
         {
             InitializeComponent();
 
+            ///Set up timer
             timer = new Timer();
-            timer.Interval = 40;
+            timer.Interval = 40;                                            
             timer.Elapsed += new ElapsedEventHandler(this.timer1_Tick_1);
             timer.Enabled = true;
         }
@@ -322,23 +322,29 @@ namespace WIFI_Robot_Controlled_Xbox
 
             #endregion Joysticks values
 
-            //Send data
+            //Send data & recive
             #region Send & print data
 
             this.Dispatcher.Invoke(() =>
             {
-                //send data
                 if (start_pilot == true)
                 {
+                    //send data to arduino
                     var joystick_values = "jx0" + jx0 + "jx1" + jx1 + "jy1" + jy1 + "LED" + leds;
-                    udpSender.Connect(Global_Variables.ip_rob, Global_Variables.port_rob);
+                    udpClient.Connect(Global_Variables.ip_rob, Global_Variables.port_rob);
                     Byte[] sendBytes_jx0 = Encoding.ASCII.GetBytes(joystick_values);
-                    udpSender.Send(sendBytes_jx0, sendBytes_jx0.Length);
-                }
+                    udpClient.Send(sendBytes_jx0, sendBytes_jx0.Length);
+                    
+                    /*/read data from arduino - ultrasonic sensor 
+                    IPEndPoint RemoteIpEndPoint = new IPEndPoint(IPAddress.Any, 0);
+                    Byte[] receiveBytes = udpClient.Receive(ref RemoteIpEndPoint);
+                    returnData = Encoding.ASCII.GetString(receiveBytes); */                  
+                }                
 
                 //print data
                 lb_joysticks.Text = "  Camera: " + camera_tilt + " degrees" + "\n\n" + "  Steer: " + steer + " degrees \n\n"  + "  Velocity: " + velocity;
                 lb_buttons.Text = "  Drive: " + drive + "\n\n" + "  Lights: " + lights;
+                //lb_upd_reciver.Text = "Ultrasonic Sensor: " + returnData;
             });
 
             #endregion Send & print data
