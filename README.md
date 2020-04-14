@@ -21,6 +21,8 @@ For any further specifications, you can open the code and look at it because it'
 
 [Video of the robot in action](https://vimeo.com/405888691)
 
+[![Video of the robot in action](src="assets/SCHEMATIC_ROBOT_CAR.jpeg")](https://vimeo.com/405888691)
+
 
 
 
