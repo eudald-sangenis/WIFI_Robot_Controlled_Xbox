@@ -19,9 +19,7 @@ The same C# program includes a box where you will be able to see in Live Stream 
 
 For any further specifications, you can open the code and look at it because it's well commented.
 
-[Video of the robot in action](https://vimeo.com/405888691)
-
-[![Video of the robot in action](assets/SCHEMATIC_ROBOT_CAR.jpeg)](https://vimeo.com/405888691)
+[![Video of the robot in action](assets/video_cover.PNG)](https://vimeo.com/405888691)
 
 
 
