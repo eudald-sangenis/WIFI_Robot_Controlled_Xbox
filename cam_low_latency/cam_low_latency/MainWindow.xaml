@@ -85,7 +85,7 @@
                     ToolTipService.InitialShowDelay="500" ToolTipService.ShowDuration="3000" ToolTipService.BetweenShowDelay="10000" ToolTip="Configurate IP.">
                 <Button.Template>
                     <ControlTemplate>
-                        <Image Source="C:\Users\carle\Documents\GitHub\WIFI_Robot_Controlled_Xbox - only\gear.png"/>
+                        <Image Source="C:\Users\carle\Documents\GitHub\WIFI_Robot_Controlled_Xbox\gear.png"/>
                     </ControlTemplate>
                 </Button.Template>
             </Button>
