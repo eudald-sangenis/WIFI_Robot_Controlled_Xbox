@@ -5,16 +5,20 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WIFI_Robot_Controlled_Xbox", "cam_low_latency\WIFI_Robot_Controlled_Xbox.csproj", "{0F0155A1-75DE-44E4-8787-559DC34F35EE}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WiFi_Robot_Controlled_Xobox_Installer", "WiFi_Robot_Controlled_Xobox_Installer\WiFi_Robot_Controlled_Xobox_Installer.vdproj", "{BFB8E67B-7F8C-4C41-AFA6-A977932DABFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0F0155A1-75DE-44E4-8787-559DC34F35EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0F0155A1-75DE-44E4-8787-559DC34F35EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F0155A1-75DE-44E4-8787-559DC34F35EE}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{0F0155A1-75DE-44E4-8787-559DC34F35EE}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{0F0155A1-75DE-44E4-8787-559DC34F35EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F0155A1-75DE-44E4-8787-559DC34F35EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFB8E67B-7F8C-4C41-AFA6-A977932DABFB}.Debug|Any CPU.ActiveCfg = Debug
+		{BFB8E67B-7F8C-4C41-AFA6-A977932DABFB}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
